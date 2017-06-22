@@ -1,0 +1,9 @@
+db:
+  image: mysql:5.7
+  environment:
+    MYSQL_ROOT_PASSWORD: local
+    MYSQL_DATABASE: local
+    MYSQL_USER: app
+    MYSQL_PASSWORD: test
+  ports:
+    - "33060:3306"
